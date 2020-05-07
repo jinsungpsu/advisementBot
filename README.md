@@ -2,6 +2,9 @@
 
 A form built on HTML/js/css for academic/program advisors to generate internal notes for documentation and email summaries for students.
 
+## Live demo
+http://www.dtcc-dev.jinsungpsu.com/advisorBot/v004/advisorBot.html
+
 ## Getting Started
 
 Built fully on front end, so can be run locally through a web browser or from your favorite web server.
