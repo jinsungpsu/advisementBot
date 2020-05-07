@@ -1,0 +1,16 @@
+#Courses input {
+    margin-left: 10px;
+}
+
+#Courses input:nth-child(3n+1):after {
+    clear:left;
+}
+
+h2 {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+
+.classChosen {
+	color: red;
+}

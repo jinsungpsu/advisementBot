@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>DTCC Advisor Bot!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">DTCC Information Technologies Advisor Bot!</h1>
+                <p class="lead">Save a few keystrokes. Save time. Save money.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h4>Program</h4>
+                <div id="majors"></div>
+                <form>
+                    <h4>Student Information</h4>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <label for="major">Major</label>
+                        <input type="text" class="form-control" id="major" placeholder="Major">
+                    </div>
+                    <div id="topics">
+                    </div>
+
+
+                </form>
+                <h5>Resources</h5>
+                <ul>
+                    <li><a href="images/CSCUDBSSequence.png" target="_blank">UD BS CS Sequence</a></li>
+                    <li><a href="images/ITNSequence.png" target="_blank">ITN Sequence</a></li>
+                    <li><a href="images/placement.pdf" target="_blank">Placement Matrix</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <form>
+                    <div id="Courses">
+                    </div>
+                </form>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Additional Notes</label>
+                <textarea class="form-control" id="addlNotes" cols="150" rows="5"></textarea>
+            </div>
+            <button class="btn btn-primary" id="generateNotes" type="submit">Generate Advisement Notes</button>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Adivsement Notes</label>
+                <textarea class="form-control" id="advisementNotes" cols="150" rows="15"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">E-mail Summary</label>
+                <textarea class="form-control" id="advisementEmailSummary" cols="150" rows="15"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/advisorBotLib.js"></script>
+
+    <script src="js/initTopics.js"></script>
+    <script src="js/initCourses.js"></script>
+    <script src="js/initAdviseBot.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
