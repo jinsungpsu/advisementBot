@@ -6,6 +6,11 @@ A form built on HTML/js/css for academic/program advisors to generate internal n
 
 Built fully on front end, so can be run locally through a web browser or from your favorite web server.
 
+Individual course information needs to be added in js/initCourses.js
+Any checkbxoes with topics you'd like to be able to generate notes on can be added in js/initTopics.js
+
+After courses and topics have been added, you can customize what is displayed in the actual form in js/initAdviseBot.js
+
 ### Prerequisites
 
 n/a
