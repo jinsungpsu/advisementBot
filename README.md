@@ -18,7 +18,7 @@ n/a
 
 ## Authors
 
-* **Jin An** - *Initial work* - [advisementBot](https://github.com/jinsungpsu)
+* **Jin An** - *Initial work* - [advisementBot](https://github.com/jinsungpsu/advisementBot)
 
 ## License
 
