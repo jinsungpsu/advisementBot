@@ -2,6 +2,11 @@
 var semesters = ["SU20", "FA20", "SP21"];
 var topics = [progAdvisement, noMajor, connectedBasic, udRequirements, otherCourses, virtualSupport];
 
+/* each major needs to individually initialize 3 different things:
+   ** 1: categories
+   ** 2: courses within that category (this is a 2 dimensional array, so follow the template closely; each of these courses must be initialized in the initCourses.js file)
+   ** 3: a new "major" object that initializes a name, id, and the categories and courses initialized in 1 and 2
+*/
 
 /* csc major */
 var cscCourseCategories = ["Core", "MathScience", "English", "General"];
